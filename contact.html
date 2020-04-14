@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/images/favicon-16x16.png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <title>Ysra SPA</title>
+  </head>
+
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+      <a class="navbar-brand" href="index.html">
+        <img
+          src="assets/images/LogoMakr_9qu29R.png"
+          alt="spa logo"
+          title="SPA logo"
+        />
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto text-uppercase">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="treatment.html"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Treatment
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="treatment.html">Body</a>
+          <a class="dropdown-item" href="facial.html">Facial</a>
+          <a class="dropdown-item" href="hand-and-foot.html">Hands and Foot</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="gallery.html">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- /Navigation -->
+    <figure class="contact-image" title="ysra-spa-contact">
+      <header class="title-contact text-uppercase mb-5">Contact</header>
+    </figure>
+    <!-- Contact -->
+    <section class="container contact-container">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-6 mt-5 mb-5">
+            <div class="contact-form">
+              <h3 class="sub-title text-uppercase font-weight-bold text-center">
+                Inquiry
+              </h3>
+              <p class="text-center mb-5">
+                We are always finding ways to improve the quality of our
+                service. We encourage you to leave us with valuable feedback.
+                Thank you for your time.
+              </p>
+              <form action="" method="post" class="form-container">
+                <div class="form-row">
+                  <div class="col sub-title text-uppercase font-weight-bold">
+                    <label for="fName"
+                      >First Name <span class="required-input">*</span></label
+                    >
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="fName>"
+                      placeholder="Enter your first name"
+                      required
+                    />
+                  </div>
+                  <div class="col sub-title text-uppercase font-weight-bold">
+                    <label for="LName"
+                      >Last Name <span class="required-input">*</span></label
+                    >
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="LName"
+                      placeholder="Enter your last name"
+                      required
+                    />
+                  </div>
+                </div>
+
+                <div
+                  class="form-group sub-title text-uppercase font-weight-bold mt-2"
+                >
+                  <label for="EmailAdd"
+                    >Email <span class="required-input">*</span></label
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="EmailAdd"
+                    aria-describedby="emailAddress"
+                    placeholder="Enter your email address"
+                    required
+                  />
+                  <small id="emailAddress" class="form-text text-muted"
+                    >We'll never share your email with anyone else.</small
+                  >
+                </div>
+                <div
+                  class="form-group sub-title text-uppercase font-weight-bold"
+                >
+                  <label for="number"
+                    >Contact Number <span class="required-input">*</span></label
+                  >
+                  <input
+                    type="tel"
+                    class="form-control"
+                    id="number"
+                    placeholder="Enter your contact number"
+                    required
+                  />
+                </div>
+                <div
+                  class="form-group sub-title text-uppercase font-weight-bold"
+                >
+                  <label for="msg">Message</label>
+                  <textarea
+                    class="form-control"
+                    id="msg"
+                    rows="4"
+                    placeholder="Type your message here"
+                    required
+                  ></textarea>
+                </div>
+                <button
+                  type="button"
+                  class="btn btn-mdc btn--submit btn-outline-success"
+                >
+                  Sumbit
+                </button>
+              </form>
+            </div>
+          </div>
+          <div class="col-md-6 mt-5 mb-5">
+            <div class="contact-information">
+              <h4 class="sub-title text-uppercase font-weight-bold text-center">
+                Contact Us
+              </h4>
+              <p class="text-center">
+                Hanstavägen 55 F, 164 53 Kista <br />
+                Stockholm, Sweden
+              </p>
+              <p class="text-center">
+                Telephone No.
+                <a
+                  class="tel-link font-color-inverse"
+                  href="tel:+46735396609"
+                  aria-label="Telephone Number"
+                  >+467 3539 6603</a
+                >
+                <br />
+                Email: ysraspa@business.com
+              </p>
+
+              <p class="text-center">
+                Operation Hours <br />
+                Monday to Thursday <br />
+                10:00 - 21:00
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /Contact -->
+
+    <!-- Footer -->
+    <footer class="container-fluid footer-container footer-bg-color">
+      <div class="row">
+        <!-- Footer: Social media links -->
+        <div class="col text-center">
+          <h5 class="uppercase general-sub mt-5">Social</h5>
+          <ul class="list-inline social-links">
+            <li class="list-inline-item">
+              <a
+                href="https://www.facebook.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="social-links-item"
+              >
+                <i class="fab fa-facebook" aria-hidden="true"></i>
+                <span class="sr-only">Facebook</span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a
+                href="https://twitter.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="social-links-item"
+              >
+                <i class="fab fa-twitter" aria-hidden="true"></i>
+                <span class="sr-only">Twitter</span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a
+                href="https://www.instagram.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="social-links-item"
+              >
+                <i class="fab fa-instagram" aria-hidden="true"></i>
+                <span class="sr-only">Instagram</span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a
+                href="https://www.pinterest.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="social-links-item"
+              >
+                <i class="fab fa-pinterest" aria-hidden="true"></i>
+                <span class="sr-only">Pinterest</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- Footer: Copyright -->
+      <div class="row">
+        <div class="col">
+          <p class="copyright text-center">
+            Copyright © 2020 Ysra Spa. All rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
