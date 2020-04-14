@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&family=Roboto&display=swap:100,300,400,500,700,900|Limelight&display=swap');
+
+body {
+   
+    text-align: justify;
+    
+}
+
+.hero-container {
+    height: 90vh;
+    background: url('../images/spa-background.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    bottom: 0;
+    position: relative;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron-header {
+    margin: 40vh 0 10vh 0;
+    margin-bottom: 40px;
+    text-align: left;
+    font-weight: 600;
+    font-family: 'Comic Neue', sans-serif;
+    font-style: italic;
+    color: #a8e619;
+}
+
+.navbar-brand {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar-brand img{
+    width: 300px;
+    height: 65px;
+}
+
+.navbar-nav .nav-item {
+    font-family: 'Comic Neue', sans-serif;
+    font-weight: 600;
+    font-size: 1.2em;
+    letter-spacing: 2px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+
+.nav-item {
+    color: #a8e619;
+}
+
+.active a {
+
+    color: #a8e619 !important;
+
+}
+
+.navbar ul li a:hover {
+    color: #a8e619 !important;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+
+}
+
+
+@media screen and (max-width: 540px){
+    .hero-cta {
+        margin: 30vh 0 10vh 0;
+        text-align: right;
+    }
+    .jumbotron-header {
+        text-align: right;
+    }
+}
+
+.btn--book {
+    background-color: #6c9708;
+    border-color: #a8e619;
+    color: #ffffff; 
+    text-transform: uppercase;
+}
+
+.btn--book:hover {
+    background-color: #a8e619;
+    border-color: #a8e619;
+}
