@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&family=Roboto&display=swap:100,300,400,500,700,900|Limelight&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Comic+Neue|Quicksand|Roboto&display=swap:100,300,400,500,700,900|Limelight&display=swap');
 
 body {
    
@@ -74,7 +74,7 @@ body {
 }
 
 .navbar-nav .nav-item {
-    font-family: 'Comic Neue', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     font-weight: 600;
     font-size: 1.2em;
     letter-spacing: 2px;
@@ -152,7 +152,6 @@ body {
 
 }
 
-
 /* End Footer */
 
 
@@ -199,7 +198,7 @@ body {
 }
 
 .sub-title {
-    font-family: 'Comic Neue', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     color: #a8e619;
 }
 
@@ -344,5 +343,39 @@ body {
     border-color: #a8e619;
 }
 
+.card-treatment {
+    border: none; 
+}
 
+.card-img-top:hover {
+    opacity: 0.3;
+}
+.card-text {
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+.card-title {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Comic Neue', sans-serif;
+    color: #a8e619;
+
+}
+@media screen and (max-width: 992px) {
+    .card-treatment  {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: block;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        text-align: center;
+        margin: auto;
+        width: 100%
+        
+    }
+}
 
