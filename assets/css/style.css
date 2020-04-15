@@ -3,9 +3,10 @@
 body {
    
     text-align: justify;
+    color: #909488;
     
 }
-
+/* Hero Home */
 .hero-container {
     height: 90vh;
     background: url('../images/spa-background.jpg') no-repeat center center fixed;
@@ -21,6 +22,7 @@ body {
     position: relative;
 }
 
+/* Overlay */
 .opaque-overlay {
     position: absolute;
     top: 0;
@@ -29,6 +31,8 @@ body {
     width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
 }
+
+/* Jumbotron */
 
 .jumbotron {
     background-color: transparent;
@@ -43,6 +47,20 @@ body {
     font-style: italic;
     color: #a8e619;
 }
+
+@media screen and (max-width: 540px){
+    .hero-cta {
+        margin: 30vh 0 10vh 0;
+        text-align: right;
+    }
+    .jumbotron-header {
+        text-align: right;
+    }
+}
+
+/*End Jumbutron */
+
+/*Navigation */
 
 .navbar-brand {
     display: block;
@@ -70,9 +88,7 @@ body {
 }
 
 .active a {
-
     color: #a8e619 !important;
-
 }
 
 .navbar ul li a:hover {
@@ -85,16 +101,7 @@ body {
 }
 
 
-@media screen and (max-width: 540px){
-    .hero-cta {
-        margin: 30vh 0 10vh 0;
-        text-align: right;
-    }
-    .jumbotron-header {
-        text-align: right;
-    }
-}
-
+/* Buttons */
 .btn--book {
     background-color: #6c9708;
     border-color: #a8e619;
@@ -106,3 +113,236 @@ body {
     background-color: #a8e619;
     border-color: #a8e619;
 }
+
+/* footer */
+.footer-container {
+    padding: 10px 10px 10px 10px;
+    color: #909488;;
+}
+
+.footer-bg-color {
+    background: #466106;
+}
+
+.footer-heading {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.footer-section-margin {
+    margin-bottom: 10px;
+}
+
+.social-links-item:hover {
+    color: #a8e619;
+}
+
+.footer-heading-social {
+    text-align: center;
+}
+
+.social-links-item {
+    padding: 0 10px;
+    font-size: 35px;
+    text-align: center;
+    color: #909488;
+
+}
+
+
+/* End Footer */
+
+
+/* About */
+
+.figure {
+    margin: 0;
+}
+
+.about-img {
+    height: 50vh;
+    width: 100%;
+    background: url("../images/tim-chow-9IcKPSQ9G5Q-unsplash.jpg") no-repeat center 75%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.title-about {
+    font-weight: 600;
+    font-size: 50px;
+    font-family: 'Comic Neue', sans-serif;
+    font-style: italic;
+    color: #a8e619;
+}
+
+.about-container-fluid {
+   padding: 4rem 1rem 4rem 1rem;
+}
+
+.spa-row {
+    padding: 15px;
+}
+
+.spa-tips {
+    text-align: left
+}
+
+.sub-title {
+    font-family: 'Comic Neue', sans-serif;
+    color: #a8e619;
+}
+
+/*Services */
+.services-image {
+    height: 50vh;
+    width: 100%;
+    background: url("../images/joanna-kosinska-ToV0rS9nTYs-unsplash.jpg") no-repeat center 75%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.card-spa {
+    width: 50%;
+}
+
+@media screen and (max-width: 992px) {
+    .card-spa  {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: block;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        width: 100%;
+       
+    }
+}
+
+.title-services {
+    font-weight: 600;
+    font-size: 50px;
+    font-family: 'Comic Neue', sans-serif;
+    font-style: italic;
+    color: #a8e619;
+}
+
+
+/*Gallery*/
+
+.gallery-image {
+    height: 50vh;
+    width: 100%;
+    background: url("../images/tim-chow-9IcKPSQ9G5Q-unsplash.jpg") no-repeat center 75%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+
+.title-gallery {
+    font-weight: 600;
+    font-size: 50px;
+    font-family: 'Comic Neue', sans-serif;
+    font-style: italic;
+    color: #a8e619;
+}
+
+.spa-gallery img {
+    width: 100%;
+    margin-top:20px; 
+    margin-bottom:20px;
+}
+
+.spa-gallery figure img {
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.spa-gallery figure:hover img {
+	opacity: .5;
+}
+
+@media screen and (max-width: 992px) {
+    .gallery-img {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        max-width: 50%;
+        padding: 10px;
+    }
+}
+
+/*Contact */
+
+.contact-image {
+    height: 50vh;
+    width: 100%;
+    background: url("../images/joanna-kosinska-ToV0rS9nTYs-unsplash.jpg") no-repeat center 75%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.title-contact {
+    font-weight: 600;
+    font-size: 50px;
+    font-family: 'Comic Neue', sans-serif;
+    font-style: italic;
+    color: #a8e619;
+}
+
+.required-input {
+    color: rgba(211, 6, 6, 0.815);
+}
+
+/* Contact Buttons */
+.btn--submit {
+    background-color: #6c9708;
+    border-color: #a8e619;
+    color: #ffffff; 
+    text-transform: uppercase;
+}
+
+.btn--submit:hover {
+    background-color: #a8e619;
+    border-color: #a8e619;
+}
+
+
+
