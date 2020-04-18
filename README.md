@@ -31,8 +31,8 @@ This website  is design to allow the the users to
 
 ## Wireframes Mockups
 
-* [Wireframe-Mobile](wireframeMockups/wireframes-mobile/wireframes-mobile.pdf)
-* [Wireframe-Tablet](wireframeMockups/wireframes-tablet/wireframes-tablets.pdf)
+* [Wireframe-Mobile](wireframeMockups/wireframe-mobile/wireframes-mobile.pdf)
+* [Wireframe-Tablet](wireframeMockups/wireframe-tablet/wireframes-tablets.pdf)
 * [Wireframe-Desktop](wireframeMockups/wireframe-desktop/wireframe-desktops.pdf)
 
 
@@ -108,7 +108,7 @@ The validity and formatiing of codes was checked by:
     - [Hand and Foot page](readmeDocs/html-validation/h&f-validation.pdf)
     - [Gallery page](readmeDocs/html-validation/gallery-validation.pdf)
     - [Contact page](readmeDocs/html-validation/contact-validation.pdf)
-    
+
 - CSS Validation
     - [Style-css](readmeDocs/css-validation/css-validation.pdf)
 
