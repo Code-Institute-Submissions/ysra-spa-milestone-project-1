@@ -1,7 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Comic+Neue|Quicksand|Roboto&display=swap:100,300,400,500,700,900|Limelight&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand|Roboto&display=swap:100,300,400,500,700,900|Limelight&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
 
 body {
-   
     text-align: justify;
     color: #909488;
     
@@ -43,8 +46,7 @@ body {
     margin-bottom: 40px;
     text-align: left;
     font-weight: 600;
-    font-family: 'Comic Neue', sans-serif;
-    font-style: italic;
+    font-family: 'Quicksand', sans-serif;
     color: #a8e619;
 }
 
@@ -55,10 +57,10 @@ body {
     }
     .jumbotron-header {
         text-align: right;
+        margin-top: 20vh;
     }
 }
 
-/*End Jumbutron */
 
 /*Navigation */
 
@@ -97,9 +99,7 @@ body {
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
-
 }
-
 
 /* Buttons */
 .btn--book {
@@ -114,46 +114,47 @@ body {
     border-color: #a8e619;
 }
 
-/* footer */
-.footer-container {
-    padding: 10px 10px 10px 10px;
-    color: #909488;;
+
+/*treatment in Home section */
+
+.title-description{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+
+}
+.card-treatment {
+    border: none; 
 }
 
-.footer-bg-color {
-    background: #466106;
+.card-img-top:hover {
+    opacity: 0.3;
+}
+.card-text {
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Quicksand', sans-serif;
 }
 
-.footer-heading {
-    margin-top: 8px;
-    margin-bottom: 8px;
-    font-size: 30px;
-    font-weight: 500;
-    text-transform: uppercase;
-}
-
-.footer-section-margin {
-    margin-bottom: 10px;
-}
-
-.social-links-item:hover {
+.card-title {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
     color: #a8e619;
 }
-
-.footer-heading-social {
-    text-align: center;
+@media screen and (max-width: 992px) {
+    .card-treatment  {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: block;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        text-align: center;
+        margin: auto;
+        width: 100%
+        
+    }
 }
-
-.social-links-item {
-    padding: 0 10px;
-    font-size: 35px;
-    text-align: center;
-    color: #909488;
-
-}
-
-/* End Footer */
-
 
 /* About */
 
@@ -164,7 +165,7 @@ body {
 .about-img {
     height: 50vh;
     width: 100%;
-    background: url("../images/tim-chow-9IcKPSQ9G5Q-unsplash.jpg") no-repeat center 75%;
+    background: url("../images/joanna-kosinska-ToV0rS9nTYs-unsplash.jpg") no-repeat center 75%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -180,8 +181,7 @@ body {
 .title-about {
     font-weight: 600;
     font-size: 50px;
-    font-family: 'Comic Neue', sans-serif;
-    font-style: italic;
+    font-family: 'Quicksand', sans-serif;
     color: #a8e619;
 }
 
@@ -194,7 +194,7 @@ body {
 }
 
 .spa-tips {
-    text-align: left
+    text-align: justify;
 }
 
 .sub-title {
@@ -202,8 +202,17 @@ body {
     color: #a8e619;
 }
 
-/*Services */
-.services-image {
+@media screen and (max-width: 540px){
+    .about-text {
+        text-align: justify;
+        margin-left: 15px;
+        margin-right: 15px;
+        padding: 0;
+    }
+}
+
+/* Treatment */
+.treatment-image {
     height: 50vh;
     width: 100%;
     background: url("../images/joanna-kosinska-ToV0rS9nTYs-unsplash.jpg") no-repeat center 75%;
@@ -232,15 +241,14 @@ body {
         -ms-flex-pack: center;
         justify-content: center;
         width: 100%;
-       
     }
 }
 
 .title-services {
     font-weight: 600;
     font-size: 50px;
-    font-family: 'Comic Neue', sans-serif;
-    font-style: italic;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
     color: #a8e619;
 }
 
@@ -250,7 +258,7 @@ body {
 .gallery-image {
     height: 50vh;
     width: 100%;
-    background: url("../images/tim-chow-9IcKPSQ9G5Q-unsplash.jpg") no-repeat center 75%;
+    background: url("../images/joanna-kosinska-ToV0rS9nTYs-unsplash.jpg") no-repeat center 75%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -267,10 +275,28 @@ body {
 .title-gallery {
     font-weight: 600;
     font-size: 50px;
-    font-family: 'Comic Neue', sans-serif;
-    font-style: italic;
+    font-family: 'Quicksand', sans-serif;
     color: #a8e619;
 }
+
+
+/* Block dividers */
+
+.block-divider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+    background-color: #444;
+}
+
+.block-divider--green-yellow {
+    background-color: #a8e619;
+}
+
+.block-divider--short {
+    width: 35px;
+}
+
 
 .spa-gallery img {
     width: 100%;
@@ -321,13 +347,16 @@ body {
 .title-contact {
     font-weight: 600;
     font-size: 50px;
-    font-family: 'Comic Neue', sans-serif;
-    font-style: italic;
+    font-family: 'Quicksand', sans-serif;
     color: #a8e619;
 }
 
 .required-input {
     color: rgba(211, 6, 6, 0.815);
+}
+
+.form-control {
+    font-size: 12px;
 }
 
 /* Contact Buttons */
@@ -343,39 +372,42 @@ body {
     border-color: #a8e619;
 }
 
-.card-treatment {
-    border: none; 
+
+
+/* footer */
+.footer-container {
+    padding: 10px 10px 10px 10px;
+    color: #909488;;
 }
 
-.card-img-top:hover {
-    opacity: 0.3;
-}
-.card-text {
-    text-align: center;
-    font-size: 18px;
-    font-family: 'Quicksand', sans-serif;
-
+.footer-bg-color {
+    background: #466106;
 }
 
-.card-title {
-    text-align: center;
-    font-size: 20px;
-    font-weight: bold;
-    font-family: 'Comic Neue', sans-serif;
+.footer-heading {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.footer-section-margin {
+    margin-bottom: 10px;
+}
+
+.social-links-item:hover {
     color: #a8e619;
-
-}
-@media screen and (max-width: 992px) {
-    .card-treatment  {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: block;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        text-align: center;
-        margin: auto;
-        width: 100%
-        
-    }
 }
 
+.footer-heading-social {
+    text-align: center;
+}
+
+.social-links-item {
+    padding: 0 10px;
+    font-size: 35px;
+    text-align: center;
+    color: #909488;
+}
+/* End Footer */
