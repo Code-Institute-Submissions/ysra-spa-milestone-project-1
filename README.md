@@ -5,7 +5,7 @@
 Ysra Spa is a service website for my first milestone project. This project is to show what I have learn from the three module HTML, CSS and User Centric fronted.
 
 
-## Mockups
+
 ![multiple different screen sizes](readmeDocs/mockups/multi-device-mockups.png)
 
 Live site click [Here](https://saharalnoor.github.io/ysra-spa-milestone-project-1/)
@@ -42,7 +42,7 @@ This website has multiple page which consist of Home, About, Treatment with two 
 
 - [Home](index.html) - It is the landing page, where the potential clients can book an appoinment and there is a intial treatment section.
 - [About](about.html) - Information about the establishment, tips and etiquette section
-- [Treatment](treatment.html) - Body treatment one of the services that the spa´s offering, here you will see the description and time of this services.
+- [Treatment (Body Treatment)](treatment.html) - Body treatment one of the services that the spa´s offering, here you will see the description and time of this services.
     - [Facial Treatment](facial.html) - sub page of treatment. Facial treatment offering the facial services.
     - [Hand and Foot Treatmen](hand-and-foot.html) - the last sub-page. Hand and Foot Treatment, it has four different services.
 - [Gallery](gallery.html) - where the users will see the clients experiences and spa facilities
@@ -61,10 +61,14 @@ This website has multiple page which consist of Home, About, Treatment with two 
 
 ## About the site
 
-The site has a simple theme that has white background. The colors that has been used are 
-    - #a8e619 - Green yellow: Primary color
-    - #6c9708 - Olivedrab : used for button background color.
-    - ##909488 - Gray : Used for body text.
+The site has a simple theme that has white background. The colors that has been used are:
+
+
+ - ![green-yellow](readmeDocs/color/green-yellow.png)  Green yellow: Primary color
+
+
+#6c9708 - Olivedrab : used for button background color.
+#909488 - Gray : Used for body text.
 
 
 ## Technologies Used
@@ -82,6 +86,7 @@ The site has a simple theme that has white background. The colors that has been 
 - [jQuery](https://jquery.com/) : For the functioning of the responsive navbar through Javascript.
 - [Popper.js](https://popper.js.org/) : For the functioning of the responsive navbar through Javascript.
 - [LogoMakr](https://logomakr.com/) : Uses to create logo.
+- [HTML Formatter](https://htmlformatter.com/) : Use to format the code neatly.
 
 
 ## Testing
@@ -91,7 +96,15 @@ This website has gone through validation using the following resources
 The validity and formatiing of codes was checked by:
 
 - HTML Validation
+    - [Index page](readmeDocs/html-validation/index-validation)
+    - [About page](readmeDocs/html-validation/about-validation)
+    - [Treatment page](readmeDocs/html-validation/treatment-validation)
+    - [Facial page](readmeDocs/html-validation/facial-validation)
+    - [Hand and Foot page](readmeDocs/html-validation/h&f-validation)
+    - [Gallery page](readmeDocs/html-validation/gallery-validation)
+    - [Contact page](readmeDocs/html-validation/contact-validation)
 - CSS Validation
+    [Style-css](readmeDocs/css-validation/css-validation)
 
 The responsiveness of the website has been tested across a range of devices (Galaxy S5, Iphone 5/6/7/8/X, IPad, IPad Pro and Desktop PC) using:
 - Google Chrome Developer Tools
@@ -120,7 +133,7 @@ This site was build using Gitpod IDE and was hosted using GitHub pages, deployed
 
 I would like to thank these persons for helping to make this project.
 
-- My mentor Brian Macharia for guiding through out the process of this project.
+- My mentor Brian Macharia for guiding me through out the process of this project.
 
 - [Richard Wells](https://github.com/D0nni387) for hosting a call to guide students who will start doing their Miles stone project 1.
 
