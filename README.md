@@ -32,7 +32,7 @@ This website  is design to allow the the users to
 ## Wireframes Mockups
 
 * [Wireframe-Mobile](wireframeMockups/wireframe-mobile/wireframes-mobile.pdf)
-* [Wireframe-Tablet](wireframeMockups/wireframe-tablet/wireframes-tablets.pdf)
+* [Wireframe-Tablet](wireframeMockups/wireframe-tablet/wiframes-tablets.pdf)
 * [Wireframe-Desktop](wireframeMockups/wireframe-desktop/wireframe-desktops.pdf)
 
 
