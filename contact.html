@@ -4,76 +4,49 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="assets/images/favicon-16x16.png"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"
-    />
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"/>
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-    <title>Ysra SPA</title>
+    <title>Ysra Spa - Contact</title>
   </head>
 
   <body>
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-		<a class="navbar-brand" href="index.html"><img
-          src="assets/images/LogoMakr_9qu29R.png"
-          alt="spa logo"
-          title="SPA logo"
-      /></a>
-			<button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
+      <a class="navbar-brand" href="index.html"> <img src="assets/images/LogoMakr_9qu29R.png" alt="spa logo" title="SPA logo"/></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
-			<div class="collapse navbar-collapse" id="navbarSupportedContent">
-				<ul class="navbar-nav ml-auto text-uppercase">
-					<li class="nav-item active">
-						<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="about.html">About</a>
-					</li>
-					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="treatment.html" id="navbarDropdown" role="button"
-							data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-							Treatment
-						</a>
-						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<a class="dropdown-item" href="treatment.html">Body</a>
-							<a class="dropdown-item" href="facial.html">Facial</a>
-							<a class="dropdown-item" href="hand-and-foot.html">Hands and Foot</a>
-						</div>
-					</li>
-                    <li class="nav-item">
-						<a class="nav-link" href="gallery.html">Gallery</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="contact.html">Contact</a>
-					</li>
-				</ul>
-			</div>
-	</nav>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto text-uppercase">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="treatments.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Treatments
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="treatments.html">Body Treatments</a>
+			  <a class="dropdown-item" href="facial-treatment.html">Facial Treatments</a>
+			  <a class="dropdown-item" href="hand-and-foot-treatment.html">Hands and Foot Treatments</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="gallery.html">Gallery</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
     <!-- /Navigation -->
     <figure class="contact-image" title="ysra-spa-contact">
       <header class="title-contact text-uppercase mb-5">Contact</header>
@@ -92,83 +65,33 @@
                 service. We encourage you to leave us with valuable feedback.
                 Thank you for your time.
               </p>
-              <form action="" method="post" class="form-container">
+              <form action="action" method="GET" class="form-container">
                 <div class="form-row">
                   <div class="col sub-title text-uppercase font-weight-bold">
-                    <label for="fName"
-                      >First Name <span class="required-input">*</span></label
-                    >
-                    <input
-                      type="text"
-                      class="form-control"
-                      id="fName>"
-                      placeholder="Enter your first name"
-                      required
-                    />
+                    <label for="FName">First Name <span class="required-input">*</span></label>
+                    <input type="text" class="form-control" id="FName" required/>
                   </div>
                   <div class="col sub-title text-uppercase font-weight-bold">
-                    <label for="LName"
-                      >Last Name <span class="required-input">*</span></label
-                    >
-                    <input
-                      type="text"
-                      class="form-control"
-                      id="LName"
-                      placeholder="Enter your last name"
-                      required
-                    />
+                    <label for="LName">Last Name <span class="required-input">*</span></label>
+                    <input type="text" class="form-control" id="LName" required/>
                   </div>
                 </div>
 
-                <div
-                  class="form-group sub-title text-uppercase font-weight-bold mt-2"
-                >
-                  <label for="EmailAdd"
-                    >Email <span class="required-input">*</span></label
-                  >
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="EmailAdd"
-                    aria-describedby="emailAddress"
-                    placeholder="Enter your email address"
-                    required
-                  />
-                  <small id="emailAddress" class="form-text text-muted"
-                    >We'll never share your email with anyone else.</small
-                  >
+                <div class="form-group sub-title text-uppercase font-weight-bold mt-2">
+                  <label for="EmailAdd">Email <span class="required-input">*</span></label>
+                  <input type="text" class="form-control" id="EmailAdd" aria-describedby="emailAddress" required/>
+                  <small id="emailAddress" class="form-text text-muted">We'll never share your email with anyone else.</small>
                 </div>
-                <div
-                  class="form-group sub-title text-uppercase font-weight-bold"
-                >
-                  <label for="number"
-                    >Contact Number <span class="required-input">*</span></label
-                  >
-                  <input
-                    type="tel"
-                    class="form-control"
-                    id="number"
-                    placeholder="Enter your contact number"
-                    required
-                  />
+                <div class="form-group sub-title text-uppercase font-weight-bold">
+                  <label for="number">Contact Number <span class="required-input">*</span></label>
+                  <input type="tel" class="form-control" id="number" required/>
                 </div>
-                <div
-                  class="form-group sub-title text-uppercase font-weight-bold"
-                >
+                <div class="form-group sub-title text-uppercase font-weight-bold">
                   <label for="msg">Message</label>
-                  <textarea
-                    class="form-control"
-                    id="msg"
-                    rows="4"
-                    placeholder="Type your message here"
-                    required
-                  ></textarea>
+                  <textarea class="form-control" id="msg" rows="4" required></textarea>
                 </div>
-                <button
-                  type="button"
-                  class="btn btn-mdc btn--submit btn-outline-success"
-                >
-                  Sumbit
+                <button type="submit"
+                  class="btn btn-mdc btn--submit btn-outline-success">Submit
                 </button>
               </form>
             </div>
@@ -178,27 +101,23 @@
               <h4 class="sub-title text-uppercase font-weight-bold text-center">
                 Contact Us
               </h4>
-              <p class="text-center">
-                Hanstavägen 55 F, 164 53 Kista <br />
+              <p class="text-center"> Hanstavägen 55 F, 164 53 Kista <br/>
                 Stockholm, Sweden
               </p>
-              <p class="text-center">
-                Telephone No.
-                <a
-                  class="tel-link font-color-inverse"
-                  href="tel:+46735396609"
-                  aria-label="Telephone Number"
-                  >+467 3539 6603</a
-                >
-                <br />
+              <p class="text-center"> Telephone No.
+                <a class="tel-link font-color-inverse" href="tel:+46735396609" aria-label="Telephone Number"> +467 3539 6603</a><br/>
                 Email: ysraspa@business.com
               </p>
 
-              <p class="text-center">
-                Operation Hours <br />
-                Monday to Thursday <br />
+              <p class="text-center">Operation Hours <br/>
+                Monday to Sunday <br/>
                 10:00 - 21:00
               </p>
+
+              <div class="loaction map text-center">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2030.8443266251722!2d17.94354511598287!3d59.40230968168441!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f9ef2ea2203df%3A0xd1e6ca0a48759ac!2sKista%20Galleria!5e0!3m2!1ssv!2sse!4v1586849461978!5m2!1ssv!2sse" width="290" height="300"  style="border:0;" allowfullscreen=""
+			     aria-hidden="false" tabindex="0"></iframe>
+              </div>
             </div>
           </div>
         </div>
@@ -208,66 +127,46 @@
 
     <!-- Footer -->
     <footer class="container-fluid footer-container footer-bg-color">
-      <div class="row">
-        <!-- Footer: Social media links -->
-        <div class="col text-center">
-          <h5 class="uppercase general-sub mt-5">Follow Us</h5>
-          <ul class="list-inline social-links">
-            <li class="list-inline-item">
-              <a
-                href="https://www.facebook.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="social-links-item"
-              >
-                <i class="fab fa-facebook" aria-hidden="true"></i>
-                <span class="sr-only">Facebook</span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a
-                href="https://twitter.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="social-links-item"
-              >
-                <i class="fab fa-twitter" aria-hidden="true"></i>
-                <span class="sr-only">Twitter</span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a
-                href="https://www.instagram.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="social-links-item"
-              >
-                <i class="fab fa-instagram" aria-hidden="true"></i>
-                <span class="sr-only">Instagram</span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a
-                href="https://www.pinterest.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="social-links-item"
-              >
-                <i class="fab fa-pinterest" aria-hidden="true"></i>
-                <span class="sr-only">Pinterest</span>
-              </a>
-            </li>
-          </ul>
+        <div class="row">
+            <!-- Footer: Social media links -->
+            <div class="col text-center">
+                <h5 class="uppercase general-sub mt-5">Follow Us</h5>
+                <ul class="list-inline social-links">
+                    <li class="list-inline-item">
+                        <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" class="social-links-item">
+                            <i class="fab fa-facebook" aria-hidden="true"></i>
+                            <span class="sr-only">Facebook</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" class="social-links-item">
+                            <i class="fab fa-twitter" aria-hidden="true"></i>
+                            <span class="sr-only">Twitter</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" class="social-links-item">
+                            <i class="fab fa-instagram" aria-hidden="true"></i>
+                            <span class="sr-only">Instagram</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://www.pinterest.com/" target="_blank" rel="noopener noreferrer" class="social-links-item">
+                            <i class="fab fa-pinterest" aria-hidden="true"></i>
+                            <span class="sr-only">Pinterest</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
-      </div>
-      <!-- Footer: Copyright -->
-      <div class="row">
-        <div class="col">
-          <p class="copyright text-center">
-            Copyright © 2020 Ysra Spa. All rights reserved.
-          </p>
+        <!-- Footer: Copyright -->
+        <div class="row">
+            <div class="col">
+                <p class="copyright text-center">
+                    Copyright © 2020 Ysra Spa. All rights reserved.
+                </p>
+            </div>
         </div>
-      </div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
