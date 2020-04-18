@@ -107,7 +107,7 @@ The validity and formatiing of codes was checked by:
     - [Facial page](readmeDocs/html-validation/facial-validation.pdf)
     - [Hand and Foot page](readmeDocs/html-validation/h&f-validation.pdf)
     - [Gallery page](readmeDocs/html-validation/gallery-validation.pdf)
-    - [Contact page](readmeDocs/html-validation/contact-validation.pdf)
+    - [Contact page](readmeDocs/html-validation/contact-validtion.pdf)
 
 - CSS Validation
     - [Style-css](readmeDocs/css-validation/css-validation.pdf)
