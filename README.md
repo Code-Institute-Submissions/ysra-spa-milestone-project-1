@@ -31,9 +31,9 @@ This website  is design to allow the the users to
 
 ## Wireframes Mockups
 
-- [Wireframe-Mobile](wireframeMockups/wireframes-mobile.pdf)
-- [Wireframe-Tablet](wireframeMockups/wireframes-tablets.pdf)
-- [Wireframe-Desktop](wireframeMockups/wireframe-desktops.pdf)
+* [Wireframe-Mobile](wireframeMockups/wireframes-mobile/wireframes-mobile.pdf)
+* [Wireframe-Tablet](wireframeMockups/wireframes-tablet/wireframes-tablets.pdf)
+* [Wireframe-Desktop](wireframeMockups/wireframe-desktop/wireframe-desktops.pdf)
 
 
 ## Features
@@ -42,9 +42,9 @@ This website has multiple page which consist of Home, About, Treatment with two 
 
 - [Home](index.html) - It is the landing page, where the potential clients can book an appoinment and there is a intial treatment section.
 - [About](about.html) - Information about the establishment, tips and etiquette section
-- [Treatment (Body Treatment)](treatment.html) - Body treatment one of the services that the spa´s offering, here you will see the description and time of this services.
-    - [Facial Treatment](facial.html) - sub page of treatment. Facial treatment offering the facial services.
-    - [Hand and Foot Treatmen](hand-and-foot.html) - the last sub-page. Hand and Foot Treatment, it has four different services.
+- [Treatment (Body Treatment)](treatments.html) - Body treatment one of the services that the spa´s offering, here you will see the description and time of this services.
+    - [Facial Treatment](facial-treatment.html) - sub page of treatment. Facial treatment offering the facial services.
+    - [Hand and Foot Treatmen](hand-and-foot-treatment.html) - the last sub-page. Hand and Foot Treatment, it has four different services.
 - [Gallery](gallery.html) - where the users will see the clients experiences and spa facilities
 - [Contact](contact.html) - A form that allows the users to contact the establishment , and where the details is written.
 
@@ -63,12 +63,17 @@ This website has multiple page which consist of Home, About, Treatment with two 
 
 The site has a simple theme that has white background. The colors that has been used are:
 
+- #a8e619 (Green-yellow) : It was used as the primary color
+- #6c9708 (Olivedrab) : It was used for button background color.
+- #909488 (Gray) : It was used for body footer text and navigation bar items.
+- #466106 (Darkolivegreen) : It was used for footer background.
+- #d30606 (Red) : It was used for required input symbol for Forms.
 
- - ![green-yellow](readmeDocs/color/green-yellow.png)  Green yellow: Primary color
+The fonts that are used are:
 
-
-#6c9708 - Olivedrab : used for button background color.
-#909488 - Gray : Used for body text.
+- Quicksand : It was used for titles text
+- Roboto : It was used for body text.
+- San Serif : Back-up fonts.
 
 
 ## Technologies Used
@@ -96,15 +101,16 @@ This website has gone through validation using the following resources
 The validity and formatiing of codes was checked by:
 
 - HTML Validation
-    - [Index page](readmeDocs/html-validation/index-validation)
-    - [About page](readmeDocs/html-validation/about-validation)
-    - [Treatment page](readmeDocs/html-validation/treatment-validation)
-    - [Facial page](readmeDocs/html-validation/facial-validation)
-    - [Hand and Foot page](readmeDocs/html-validation/h&f-validation)
-    - [Gallery page](readmeDocs/html-validation/gallery-validation)
-    - [Contact page](readmeDocs/html-validation/contact-validation)
+    - [Index page](readmeDocs/html-validation/index-validation.pdf)
+    - [About page](readmeDocs/html-validation/about-validation.pdf)
+    - [Treatment page](readmeDocs/html-validation/treatment-validation.pdf)
+    - [Facial page](readmeDocs/html-validation/facial-validation.pdf)
+    - [Hand and Foot page](readmeDocs/html-validation/h&f-validation.pdf)
+    - [Gallery page](readmeDocs/html-validation/gallery-validation.pdf)
+    - [Contact page](readmeDocs/html-validation/contact-validation.pdf)
+    
 - CSS Validation
-    [Style-css](readmeDocs/css-validation/css-validation)
+    - [Style-css](readmeDocs/css-validation/css-validation.pdf)
 
 The responsiveness of the website has been tested across a range of devices (Galaxy S5, Iphone 5/6/7/8/X, IPad, IPad Pro and Desktop PC) using:
 - Google Chrome Developer Tools
