@@ -50,7 +50,10 @@
     </nav>
     <!-- /Navigation -->
     <figure class="treatment-image" title="ysra-spa-services">
-        <header class="title-services text-uppercase mb-5">Hands & Foot <br> Treatments</header>
+        <header class="title-services text-uppercase mb-5">Hands & Foot <br> Treatments <br>
+        <button type="button" class="btn btn-mdc btn--book align-center" data-toggle="modal" data-target="#bookAnAppointmentModal">Book an Appointment</button>
+        </header>
+        
     </figure>
 
     <!-- Treatment -->
@@ -155,6 +158,60 @@
             </div>
         </div>
     </footer>
+    <!-- /Footer -->
+
+    <!--- Modal --->
+    
+    <div class="modal" tabindex="-1" role="dialog" id="bookAnAppointmentModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header text-center">
+                    <h4 class="modal-title text-uppercase">Book An Appoinment</h4>
+                    <p class="text-center">
+                        <small>
+		                Book your reservation at least 2 days prior to your preferred
+		                date. We will get back to you within 24hrs for
+		                confirmation.</small>
+                    </p>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form action="action" method="GET" class="form-container">
+                        <div class="form-row">
+                            <div class="col sub-title text-uppercase font-weight-bold">
+                                <label for="FName">First Name <span class="required-input">*</span></label>
+                                <input type="text" class="form-control" id="FName" required />
+                            </div>
+                            <div class="col sub-title text-uppercase font-weight-bold">
+                                <label for="LName">Last Name <span class="required-input">*</span></label>
+                                <input type="text" class="form-control" id="LName" required />
+                            </div>
+                        </div>
+
+                        <div class="form-group sub-title text-uppercase font-weight-bold mt-2">
+                            <label for="EmailAdd">Email <span class="required-input">*</span></label>
+                            <input type="text" class="form-control" id="EmailAdd" aria-describedby="emailAddress" required />
+                            <small id="emailAddress" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                        <div class="form-group sub-title text-uppercase font-weight-bold">
+                            <label for="number">Contact Number <span class="required-input">*</span></label>
+                            <input type="tel" class="form-control" id="number" required />
+                        </div>
+                        <div class="form-group sub-title text-uppercase font-weight-bold">
+                            <label for="msg">Message</label>
+                            <textarea class="form-control" id="msg" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-mdc btn--submit btn-outline-success">
+                            Submit
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /Modal -->
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
