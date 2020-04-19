@@ -19,7 +19,7 @@ body {
     background-size: cover;
 
     display: flex;
-    align-items: left;
+    text-align: left;
     justify-content: left;
     bottom: 0;
     position: relative;
@@ -352,7 +352,7 @@ body {
 }
 
 .required-input {
-    color: rgba(211, 6, 6, 0.815);
+    color: #d30606;
 }
 
 .form-control {
@@ -371,8 +371,6 @@ body {
     background-color: #a8e619;
     border-color: #a8e619;
 }
-
-
 
 /* footer */
 .footer-container {
@@ -410,4 +408,3 @@ body {
     text-align: center;
     color: #909488;
 }
-/* End Footer */
